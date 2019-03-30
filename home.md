@@ -5,6 +5,8 @@ Welcome to the Conquer Online server development and client modifications wiki. 
 * Authors must respect each other, and not engage in personal attacks.
 * Authors must not publish copyrighted images or programs.
 
+You can find a list of contributors [here](Contributors).
+
 ## Navigation
 You can browse through all pages by cloning the wiki's public repository using the following command:
 ```
