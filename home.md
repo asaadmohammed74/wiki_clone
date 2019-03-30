@@ -7,10 +7,11 @@ Welcome to the Conquer Online server development and client modifications wiki. 
 You can find a list of contributors [here](Contributors).
 
 ## Navigation
-You can browse through all pages by cloning the wiki's public repository using the following command:
+Click one of the following links to browse a folder of articles:
+
+* [Network Packets](Packets/Network Packets)
+
+You can also browse through all pages by cloning the wiki's public repository using the following command:
 ```
 git clone https://gitlab.com/spirited/conquer.wiki.git
 ```
-For click one of the following links to browse a folder of articles:
-
-* [Network Packets](Packets/Network Packets)
