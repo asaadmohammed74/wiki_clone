@@ -9,7 +9,7 @@ You can find a list of contributors [here](Contributors).
 ## Navigation
 Click one of the following links to browse a folder of articles:
 
-* [Network Packets](Packets/Index)
+* [Network Packets](Packets/Packets)
 
 You can also browse through all pages by cloning the wiki's public repository using the following command:
 ```
