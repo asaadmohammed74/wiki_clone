@@ -1,4 +1,3 @@
-## Homepage
 Welcome to the Conquer Online server development and client modifications wiki. This wiki is hosted publicly using Git and maintained by the open source community. Pages on this wiki cover topics such as server packet structures, cryptography, client file formats, enumeration types, system overviews, etc. To participate in this collaborative effort to document Conquer Online development, the following rules must be followed:
 
 * Articles must be written from a neutral point of view.
@@ -14,4 +13,4 @@ git clone https://gitlab.com/spirited/conquer.wiki.git
 ```
 For click one of the following links to browse a folder of articles:
 
-* [Network Packets](Packets/Index)
+* [Network Packets](Packets/Network Packets)
