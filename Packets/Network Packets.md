@@ -7,4 +7,4 @@ type Header struct {
 }
 ```
 ### Known Packet Structures
-* 1001 - [MsgRegister](MsgRegister)
+* 1001 - [MsgRegister](Packets/MsgRegister)
