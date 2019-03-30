@@ -12,4 +12,4 @@ git clone https://gitlab.com/spirited/conquer.wiki.git
 ```
 For click one of the following links to browse a folder of articles:
 
-* [Network Packets](packets)
+* [Network Packets](Packets/Index)
