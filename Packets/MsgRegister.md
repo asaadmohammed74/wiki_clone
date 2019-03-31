@@ -55,4 +55,5 @@ This packet is sent from the game client to the game server. It contains initial
 | 80 | Char[12] | Client MacAddress | 0A0027000000 |
 
 The rest of this packet is confirmed empty space (32 bytes).
+
 All "unused" fields are now not implemented in the client.
