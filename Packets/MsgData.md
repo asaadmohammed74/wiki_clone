@@ -6,7 +6,7 @@ This packet is sent between the game server and client to exchange interval base
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 36 |
 | 2 | UInt16 | Type | 1033 |
-| 4 | UInt32 | Update Type | 0 |
+| 4 | UInt32 | [Update Action](Enums/MsgData Action) | 0 |
 | 8 | UInt32 | Year - 1900 (or data) | 115 |
 | 12 | UInt32 | Month - 1 | 9 |
 | 16 | UInt32 | Day of Year | 297 |
