@@ -1,4 +1,4 @@
-These values can be found in statuseffect.ini in the ini folder of the client for [MsgUserAttrib](Packet/MsgUserAttrib). These values can be stacked as bitflags to create a composite status effect on the player. Each value below is the amount of [bits to shift](http://www.alanzucconi.com/2015/07/26/enum-flags-and-bitwise-operators/). For example, the Dead flag would be 1 << 10.
+These values can be found in statuseffect.ini in the ini folder of the client for [MsgUserAttrib](Packets/MsgUserAttrib). These values can be stacked as bitflags to create a composite status effect on the player. Each value below is the amount of [bits to shift](http://www.alanzucconi.com/2015/07/26/enum-flags-and-bitwise-operators/). For example, the Dead flag would be 1 << 10.
 
 ```
 BLUE_FLASHING_NAME = 0,
