@@ -7,7 +7,7 @@ This packet is sent from the game client to the game server and vise versa to pr
 | 0 | UInt16 | Length | 68 |
 | 2 | UInt16 | Type | 1019 |
 | 4 | UInt32 | Character Identity | 1000000 |
-| 8 | Byte | Action Type | 15 |
+| 8 | Byte | [Action Type](Enums/MsgFriend Action) | 15 |
 | 9 | Byte | Online | 1 |
 | 10 | UInt16 | Level (Unreferenced) | 0 |
 | 12 | UInt32 | Nobility Rank | 3 |
