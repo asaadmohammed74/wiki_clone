@@ -8,25 +8,25 @@ This file structure encapsulates covers, effects, scenes, and sounds, used for w
 | 8 | Char[260] | Puzzle Path | map\\puzzle\\babel.pul |
 | 268 | UInt32 | Width | 368 |
 | 268 | UInt32 | Height | 368 |
-| for y := 0; y < height; y++ |||
-| for x := 0; x < width; x++ |||
+||| **for y := 0; y < height; y++** |
+||| **for x := 0; x < width; x++** |
 | | UInt16 | Accessible | 1 |
 | | UInt16 | Surface | 0 |
 | | Int16 | Elevation | 0 |
-| end for |||
+||| **end for** |
 | | UInt32 | Checksum | 136160 |
-| end for |||
+||| **end for** |
 | | UInt32 | Amount Passageways | 0 |
-| for i := 0; i < amount; i++ |||
+||| **for i := 0; i < amount; i++** |
 | | UInt32 | Portal X | |
 | | UInt32 | Portal Y | |
 | | UInt32 | Portal Index | |
-| end for |||
+||| **end for** |
 | | UInt32 | Amount Layers | 48 |
-| for i := 0; i < amount; i++ |||
+||| **for i := 0; i < amount; i++** |
 | | UInt32 | Layer Type | 10 |
 | | Layer | See layer type structures below | |
-| end for |||
+||| **end for** |
 
 *Notes:* The version could be a string prefixed with "DMAP". 
 
