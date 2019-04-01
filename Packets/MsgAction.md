@@ -13,7 +13,7 @@ It is worth noting that it is very common for each 'Data' field to be broken int
 | 12 | UInt32 | Data1 | 321 |
 | 16 | UInt32 | Data2 | 123 |
 | 20 | UInt16 | Direction | 1 |
-| 22 | ActionType | Action | 137 |
+| 22 | UInt16 | [Action](Enums/MsgAction Action) | 137 |
 
 ### Patch 5165
 
@@ -24,7 +24,7 @@ It is worth noting that it is very common for each 'Data' field to be broken int
 | 8 | UInt32 | Character ID | 1000001 |
 | 12 | UInt32 | Data1 | 321 |
 | 16 | UInt32 | Client Timestamp | 123123 |
-| 20 | ActionType | Action | 137 |
+| 20 | Uint16| [Action](Enums/MsgAction Action) | 137 |
 | 22 | UInt16 | Direction | 1 |
 | 24 | UInt32 | Data2 | 123 |
 | 28 | UInt32 | Data3 | 123 |
@@ -39,7 +39,7 @@ It is worth noting that it is very common for each 'Data' field to be broken int
 | 12 | UInt32 | Data1 | 321 |
 | 16 | UInt32 | Data2 | 321 |
 | 20 | UInt32 | Client Timestamp | 123123 |
-| 24 | ActionType | Action | 137 |
+| 24 | UInt16| [Action](Enums/MsgAction Action) | 137 |
 | 26 | UInt16 | Direction | 1 |
 | 30 | UInt32 | Data3 | 123 |
 | 34 | UInt32 | Data4 | 123 |
@@ -55,7 +55,7 @@ It is worth noting that it is very common for each 'Data' field to be broken int
 | 8 | UInt32 | Action Data | 321 |
 | 12 | UInt32 | Action Details | 321 |
 | 16 | UInt32 | Client Timestamp | 123123 |
-| 20 | ActionType | Action Type | 137 |
+| 20 | UInt16 | [Action](Enums/MsgAction Action) | 137 |
 | 22 | UInt16 | Direction | 0 |
 | 24 | UInt16 | X | 400 |
 | 26 | UInt16 | Y | 400 |
