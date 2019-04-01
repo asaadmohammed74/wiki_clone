@@ -1,4 +1,4 @@
-This packet is sent from the game server to the game client. It contains character information from the game database, such as the name, body type, profession, and character attributes. In response to this packet, the client will send a character location request. Check the MsgAction packet for details.
+This packet is sent from the game server to the game client. It contains character information from the game database, such as the name, body type, profession, and [character attributes](Systems/Attribute Points). In response to this packet, the client will send a character location request. Check the MsgAction packet for details.
 
 ### Patch 4330
 
@@ -15,7 +15,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 42 | UInt16 | Agility | 2 |
 | 44 | UInt16 | Vitality | 4 |
 | 46 | UInt16 | Spirit | 0 |
-| 48 | UInt16 | Attributes | 0 |
+| 48 | UInt16 | [Attributes](Systems/Attribute Points) | 0 |
 | 50 | UInt16 | Health | 123 |
 | 52 | UInt16 | Mana | 0 |
 | 54 | UNIT16 | PkPoints | 0 |
@@ -46,7 +46,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 48 | UInt16 | Agility | 2 |
 | 50 | UInt16 | Vitality | 4 |
 | 52 | UInt16 | Spirit | 0 |
-| 54 | UInt16 | Attributes | 0 |
+| 54 | UInt16 | [Attributes](Systems/Attribute Points) | 0 |
 | 56 | UInt16 | Health | 123 |
 | 58 | UInt16 | Mana | 0 |
 | 60 | UNIT16 | PkPoints | 0 |
@@ -77,7 +77,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 52 | UInt16 | Agility | 6 |
 | 54 | UInt16 | Vitality | 12 |
 | 56 | UInt16 | Spirit | 0 |
-| 58 | UInt16 | Attribute Points | 0 |
+| 58 | UInt16 | [Attributes](Systems/Attribute Points) | 0 |
 | 60 | UInt16 | Health Points | 12 |
 | 62 | UInt16 | Spirit Points | 0 |
 | 64 | UInt16 | Player Kill Points | 0 |
@@ -109,7 +109,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 54 | UInt16 | Agility | 6 |
 | 56 | UInt16 | Vitality | 12 |
 | 58 | UInt16 | Spirit | 0 |
-| 60 | UInt16 | Attribute Points | 0 |
+| 60 | UInt16 | [Attributes](Systems/Attribute Points) | 0 |
 | 62 | UInt16 | Health Points | 12 |
 | 64 | UInt16 | Spirit Points | 0 |
 | 66 | UInt16 | PK Points | 0 |
