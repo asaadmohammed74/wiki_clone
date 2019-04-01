@@ -5,7 +5,7 @@ This file structure encapsulates covers, effects, scenes, and sounds, used for w
 | Offset | Type | Description | Example |
 | ------ | ---- | ----------- | ------- |
 | 0 | UInt64 | Version | 1003 |
-| 8 | Char[260] | Puzzle Path | map\\puzzle\\babel.pul |
+| 8 | Char[260] | [Puzzle](Files/Pul) Path | map\\puzzle\\babel.pul |
 | 268 | UInt32 | Width | 368 |
 | 268 | UInt32 | Height | 368 |
 ||| **for y := 0; y < height; y++** |
