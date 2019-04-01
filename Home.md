@@ -20,3 +20,14 @@ You can also browse through all pages by cloning the wiki's public repository us
 ```
 git clone https://gitlab.com/spirited/conquer.wiki.git
 ```
+
+### Utilities
+* [3DS Max: C3 Plugin](https://www.elitepvpers.com/forum/co2-weapon-armor-effects-interface-edits/529945-guide-c3-files-creating.html) - Guide on creating c3 models
+* [Bitturn](http://mirex.mypage.sk/index.php?selected=1) - Exports c3 files for 3DS Max
+* [Dat Decryptor](https://www.elitepvpers.com/forum/co2-programming/556116-datcryptor-v2.html) - Decrypts some client dat files
+* [DBC Decryptor](https://www.elitepvpers.com/forum/co2-weapon-armor-effects-interface-edits/1858946-release-dbc-converter-ini-dbc-dbc-ini.html) - Decrypts into ini files
+* [DDS Editor](http://www.getpaint.net/index.html) - Paint.NET (Free Photoshop alternative)
+* [DDS Plugin: Photoshop](https://developer.nvidia.com/nvidia-texture-tools-adobe-photoshop) - Photoshop plugin for saving as DDS
+* [DDS Plugin: Gimp](http://registry.gimp.org/node/70) - Gimp plugin for saving as DDS
+* [WDB Archives](https://www.elitepvpers.com/forum/co2-weapon-armor-effects-interface-edits/1779148-release-tq-package-manager-wdf-dnp-wdb-tpi-tpd.html) - Extracts DBC files from a WDB archive
+* [WDF Archives](https://www.elitepvpers.com/forum/co2-weapon-armor-effects-interface-edits/513538-release-wdf-extractor.html) - Extracts DDS and C3 files from a WDF archive
