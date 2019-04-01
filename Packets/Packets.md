@@ -6,7 +6,7 @@ type Header struct {
     Type    uint16
 }
 ```
-### Known Packet Structures
+### Documented Packets
 * [1001 - MsgRegister](Packets/MsgRegister.md)
 * [1004 - MsgTalk](Packets/MsgTalk.md)
 * [1005 - MsgWalk](Packets/MsgWalk.md)
