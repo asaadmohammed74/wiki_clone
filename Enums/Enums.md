@@ -24,6 +24,7 @@ This section contains links to enumeration types used in packet and file structu
 * [MsgTalk/Tone](Enums/MsgTalk Tone) ([Packet](Packets/MsgTalk))
 * [MsgSchoolMember/Action](Enums/MsgSchoolMember Action) ([Packet](Packets/Archive/MsgSchoolMember))
 * [MsgSchoolMember/Relation](Enums/MsgSchoolMember Relation) ([Packet](Packets/Archive/MsgSchoolMember))
+* [MsgSyncAction/Action](Enums/MsgSyncAction Action) ([Packet](Packets/MsgSyncAction))
 * [MsgUserAttrib/Status](Enums/MsgUserAttrib Status) ([Packet](Packets/MsgUserAttrib))
 * [MsgWeather/Type](Enums/MsgWeather Type) ([Packet](Packets/MsgWeather))
 * [MsgWalk/Type](Enums/MsgWalk Type) ([Packet](Packets/MsgWalk))
