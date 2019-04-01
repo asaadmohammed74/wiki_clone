@@ -9,6 +9,7 @@ This section contains links to enumeration types used in packet and file structu
 ### Packet Enums
 * [MsgAction/Action](Enums/MsgAction Action) ([Packet](Packets/MsgAction))
 * [MsgConnectEx/Rule](Enums/MsgConnectEx Rejects) ([Packet](Packets/MsgConnectEx))
+* [MsgItemInfo/Type](Enums/MsgItemInfo Type)
 * [MsgMapInfo/Rule](Enums/MsgMapInfo Rule) ([Packet](Packets/MsgMapInfo))
 * [MsgName/Request](Enums/MsgName Request) ([Packet](Packets/MsgName))
 * [MsgTalk/Style](Enums/MsgTalk Style) ([Packet](Packets/MsgTalk))
