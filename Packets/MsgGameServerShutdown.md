@@ -2,11 +2,13 @@ This packet is sent by the game server to the client to request a polite disconn
 
 ### Patch 5615
 
-FIXME This packet requires verification, and remains untested.
+Untested.
+
 | Offset | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length (Assummed) | 12 |
 | 2 | UInt16 | Type | 1350 |
 | 4 | UInt32 | Action (client only accepts 0) | 0 |
 | 8 | UInt32 | Message ID (client only accepts 10) | 10 |
+
 Notes: The packet length is unchecked by the client.
