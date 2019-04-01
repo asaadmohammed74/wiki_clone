@@ -3,5 +3,7 @@ This section contains links to file structures used in the Conquer Online game c
 ### Formats
 * [Alpha Mask File (*.msk)](Files/Msk)
 * [Conquer III 3D File (*.c3)](Files/C3)
+* [Data Map File (*.dmap)](Files/DMap)
+* [Scene File (*.scene)](Files/Scene)
 
 ### Files
