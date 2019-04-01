@@ -7,7 +7,7 @@ This packet is sent server>client to add or update the attributes of a specific 
 | 0 | UInt16 | Length | 44|
 | 2 | UInt16 | Type | 1008|
 | 4 | UInt32 | UniqueID | 1 |
-| 8 | UInt32 | StaticID | 730001 |
+| 8 | UInt32 | [ItemType ID](Systems/Item Archetype) | 730001 |
 | 12 | UInt16 | Durability | 10000 |
 | 14 | UInt16 | MaxDurability | 10000 |
 | 16 | UInt16 | Action Type| 1 |
@@ -33,7 +33,7 @@ This packet is sent server>client to add or update the attributes of a specific 
 | 0 | UInt16 | Length |  |
 | 2 | UInt16 | Type | 1008 |
 | 4 | UInt32 | User ID | 1000001 |
-| 8 | UInt32 | ItemType ID | ‭132003‬ |
+| 8 | UInt32 | [ItemType ID](Systems/Item Archetype) | ‭132003‬ |
 | 12 | UInt16 | Durability | ‭1095 |
 | 14 | UInt16 | Max Durability | ‭1099 |
 | 16 | UInt16 | Action Type| 1 |
