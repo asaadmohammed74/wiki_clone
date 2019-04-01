@@ -6,7 +6,7 @@ This packet is sent to the observing clients on the map server when the actor en
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 100 + CharacterName + CharacterMate |
 | 2 | UInt16 | Type | 10014 |
-| 4 | UInt32 | Mesh | 1003 |
+| 4 | UInt32 | [Mesh](Systems/Mesh) | 1003 |
 | 8 | UInt32 | User Identity | 1000000 |
 | 12 | UInt16 | Syndicate Identity | 30 |
 | 15 | Byte | Syndicate Rank | 100 |
@@ -42,7 +42,7 @@ This packet is sent to the observing clients on the map server when the actor en
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 232 + Name + Spouse + Clan |
 | 2 | UInt16 | Type | 10014 |
-| 4 | UInt32 | Mesh | 1003 |
+| 4 | UInt32 | [Mesh](Systems/Mesh) | 1003 |
 | 8 | UInt32 | User ID | 1000000 |
 | 12 | UInt32 | Syndicate Identity | 30 |
 | 16 | UInt32 | Syndicate Rank | 100 |

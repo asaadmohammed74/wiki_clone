@@ -1,4 +1,4 @@
-This packet is sent between the game client and server to exchange messages. The messages are used to control the client during login to the game server, and to socialize with other players on the server. The packet includes player meshes in patches 5017 and higher for private whisper windows. Suffix is used for offline messages, and usually contains the date in the format yyyyMMdd.
+This packet is sent between the game client and server to exchange messages. The messages are used to control the client during login to the game server, and to socialize with other players on the server. The packet includes player [meshes](Systems/Mesh) in patches 5017 and higher for private whisper windows. Suffix is used for offline messages, and usually contains the date in the format yyyyMMdd.
 
 ### Patch 4330
 
@@ -30,8 +30,8 @@ This packet is sent between the game client and server to exchange messages. The
 | 8 | UInt16 | [Tone](Enums/MsgTalk Tone) | 2000 |
 | 10 | UInt16 | [Style Flags](Enums/MsgTalk Style) | 0 |
 | 12 | UInt32 | Sender's Identity | 1000000 |
-| 16 | UInt32 | Recipient's Mesh | 501002 |
-| 20 | UInt32 | Sender's Mesh | 501002 |
+| 16 | UInt32 | Recipient's [Mesh](Systems/Mesh) | 501002 |
+| 20 | UInt32 | Sender's [Mesh](Systems/Mesh) | 501002 |
 | 24 | Byte | String List Count | 4 |
 |  | Byte | Sender's Name Length | 7 |
 |  | Char[] | Sender's Name | Player1 |
@@ -52,8 +52,8 @@ This packet is sent between the game client and server to exchange messages. The
 | 8 | UInt16 | [Tone](Enums/MsgTalk Tone) | 2000 |
 | 10 | UInt16 | [Style Flags](Enums/MsgTalk Style) | 0 |
 | 12 | UInt32 | Sender's Identity / Time | (hour * 100) + min |
-| 16 | UInt32 | Recipient's Mesh | 501002 |
-| 20 | UInt32 | Sender's Mesh | 501002 |
+| 16 | UInt32 | Recipient's [Mesh](Systems/Mesh) | 501002 |
+| 20 | UInt32 | Sender's [Mesh](Systems/Mesh) | 501002 |
 | 24 | Byte | String List Count | 6 |
 |  | Byte | Sender's Name Length | 7 |
 |  | Char[] | Sender's Name | Player1 |
