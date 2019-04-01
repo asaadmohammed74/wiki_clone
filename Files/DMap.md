@@ -67,7 +67,7 @@ This data structure is encapsulated by the data map file structure. An effect ac
 | 68 | UInt32 | Origin Y | 6465 |
 
 ### Scene Layer Type
-This data structure is encapsulated by the data map file structure. A scene acts as a background cover on the map, composed by multiple assets arranged as a puzzle. Players may walk over and obstruct them, similarly to the map's puzzle. This entry contains the file path of the scene part, which defines the puzzle pieces for the scene.
+This data structure is encapsulated by the data map file structure. A scene acts as a background cover on the map, composed by multiple assets arranged as a [puzzle](Files/Pul). Players may walk over and obstruct them, similarly to the map's [puzzle](Files/Pul). This entry contains the file path of the scene part, which defines the [puzzle](Files/Pul) pieces for the scene.
 
 | Offset | Type | Description | Example |
 | ------ | ---- | ----------- | ------- |
