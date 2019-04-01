@@ -12,6 +12,7 @@ Click one of the following links to browse a folder of articles:
 * [Files](Files/Files)
 * [Packets](Packets/Packets)
 * [Security](Security/Security)
+* [Systems](Systems/Systems)
 
 You can also browse through all pages by cloning the wiki's public repository using the following command:
 ```
