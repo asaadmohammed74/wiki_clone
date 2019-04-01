@@ -1,0 +1,1 @@
+This packet was never implemented, or cannot be discovered within our current mediums of research. It can be assumed that the packet was never implemented in favor of server processing and the [MsgMapItem](Packets/MsgMapItem) packet, which has a secondary use for setting and triggering floor traps.
