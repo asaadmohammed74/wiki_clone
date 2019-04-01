@@ -8,7 +8,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 2 | UInt16 | Type | 1006 |
 | 4 | UInt32 | Identity | 1000000 |
 | 8 | UInt32 | [Mesh](Systems/Mesh) | 1003 |
-| 12 | UInt16 | Hairstyle | 535 |
+| 12 | UInt16 | [Hairstyle](Enums/Hairstyles) | 535 |
 | 16 | UInt32 | Silver | 10000 |
 | 20 | UInt64 | Experience | 0 |
 | 40 | UInt16 | Strength | 7 |
@@ -38,7 +38,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 2 | UInt16 | Type | 1006 |
 | 4 | UInt32 | Identity | 1000000 |
 | 8 | UInt32 | [Mesh](Systems/Mesh) | 1003 |
-| 12 | UInt16 | Hairstyle | 535 |
+| 12 | UInt16 | [Hairstyle](Enums/Hairstyles) | 535 |
 | 16 | UInt32 | Silver | 10000 |
 | 20 | UInt32 | CPs | 0 |
 | 24 | UInt64 | Experience | 0 |
@@ -69,7 +69,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 2 | UInt16 | Type | 1006 |
 | 4 | UInt32 | Character Identity | 1000000 |
 | 8 | UInt32 | [Mesh](Systems/Mesh) | 501003 |
-| 12 | UInt16 | Hair Style | 418 |
+| 12 | UInt16 | [Hairstyle](Enums/Hairstyles) | 418 |
 | 14 | UInt32 | Silver | 10000 |
 | 18 | UInt32 | Conquer Points | 10000 |
 | 22 | UInt64 | Experience | 0 |
@@ -100,7 +100,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 4 | UInt32 | Character Identity | 1000000 |
 | 8 | UInt16 | Appearance | 3 |
 | 10 | UInt32 | [Mesh](Systems/Mesh) | 501003 |
-| 14 | UInt16 | Hair Style | 418 |
+| 14 | UInt16 | [Hairstyle](Enums/Hairstyles) | 418 |
 | 16 | UInt32 | Silver | 10000 |
 | 20 | UInt32 | Conquer Points | 10000 |
 | 24 | UInt64 | Experience | 0 |

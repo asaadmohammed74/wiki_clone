@@ -17,7 +17,7 @@ This packet is sent to the observing clients on the map server when the actor en
 | 40 | UInt32 | Left Hand | 410339 |
 | 44 | UInt32 | Right Hand | 480339 |
 | 48 | UInt16 | Life | 15000 |
-| 52 | UInt32 | Hair Style | 316 |
+| 52 | UInt32 | [Hairstyle](Enums/Hairstyles) | 316 |
 | 54 | UInt16 | Map X | 430 |
 | 56 | UInt16 | Map Y | 378 |
 | 58 | Byte | Direction | 7 |
@@ -63,7 +63,7 @@ This packet is sent to the observing clients on the map server when the actor en
 | 90 | UInt16 | Level | 130 |
 | 92 | UInt16 | X | 430 |
 | 94 | UInt16 | Y | 378 |
-| 96 | UInt16 | Hairstyle | 316 |
+| 96 | UInt16 | [Hairstyle](Enums/Hairstyles) | 316 |
 | 98 | Byte | Direction | 0 |
 | 99 | UInt32 | Action | 0 |
 | 103 | UInt16 | Continue Action | 0 |
