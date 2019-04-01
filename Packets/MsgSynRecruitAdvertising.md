@@ -16,4 +16,4 @@ This packet is used to place an advertisement for your guild.
 | 280 | UInt16 | GenderForbid [Flag] | 0 |
 | 282 | UInt16 | UnknownValue | 0 |
 
-Note: the class/gender forbid is a bit flag and lists professions and genders >NOT< permitted to join through the advertisements.
+**Note:** the class/gender forbid is a bit flag and lists professions and genders >NOT< permitted to join through the advertisements.
