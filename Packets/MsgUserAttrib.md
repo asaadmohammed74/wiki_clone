@@ -8,8 +8,8 @@ Updates the client screen with new status and data and also some character data 
 | 2 | UInt16 | Type | 10017 |
 | 4 | UInt32 | Identity | 1000002 |
 | 8 | UInt32 | Update Count | 1 |
-| 12 | UInt32 | Update Type | 1 |
-| 16 | UInt64 | Value | 13500 |
+| 12 | UInt32 | [Status Type](Enums/MsgUserAttrib Status) | 1 |
+| 16 | UInt64 | Status Value | 13500 |
 
 **Note:** On some types you can send two UInt32 instead of one UInt64.
 
@@ -21,7 +21,7 @@ Updates the client screen with new status and data and also some character data 
 | 2 | UInt16 | Type | 10017 |
 | 4 | UInt32 | User ID | 1000002 |
 | 8 | UInt32 | Update Count | 1 |
-| 12 | UInt32 | Update Type | 1 |
+| 12 | UInt32 | [Status Type](Enums/MsgUserAttrib Status) | 1 |
 | 16 | UInt64 | Value 1 | 13500 |
 | 24 | UInt64 | Value 2 | 0 |
 | 32 | UInt32 | Value 3 | 0 |
