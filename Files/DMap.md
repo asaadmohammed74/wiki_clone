@@ -35,5 +35,17 @@ Passageway indexes are not consistent. They're only used for client indexing of 
 checksum += (uint32)((tile.Accessible ? 0 : 1) * (tile.Surface + y + 1) + (tile.Elevation + 2) * (tile.Surface + x + 1));
 ```
 
-### Layer Type Structures
-Data map files contain more sections that can be read from. 
+### Cover Layer Type
+This data structure is encapsulated by the data map file structure. A cover object is a scenery object or animation which is layered on top of all other objects and the player. The purpose of covers is to add depth to the world (a foreground in front of the player). Unlike scenery files, the cover file structure is not its own separate file format, but instead uses an ANI file to map the cover to its frames and assets.
+
+| Offset | Type | Description | Example |
+| ------ | ---- | ----------- | ------- |
+| 0 | Char[260] | File Path | ani\MapScene-saya.ani |
+| 260 | Char[128] | Key Name | altar00 |
+| 388 | UInt32 | Origin X | 568 |
+| 392 | UInt32 | Origin Y | 788 |
+| 396 | UInt32 | Width | 3 |
+| 400 | UInt32 | Height | 2 |
+| 404 | UInt32 | Offset X | 89 |
+| 408 | UInt32 | Offset Y | 221 |
+| 412 | UInt32 | Frame Interval | 100 |
