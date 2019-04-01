@@ -8,6 +8,6 @@ This section contains links to file structures used in the Conquer Online game c
 * [Scene File (*.scene)](Files/Scene)
 
 ### Files
-* [3DEffect.ini](Files/3DEffect)
-* [GameMap.dat](Files/GameMap)
-* [magictypeop.dat](Files/magictypeop)
+* [3DEffect.ini](3DEffect.ini)
+* [GameMap.dat](GameMap.dat)
+* [magictypeop.dat](magictypeop.dat)
