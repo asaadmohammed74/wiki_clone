@@ -1,6 +1,7 @@
 This section contains links to enumeration types used in packet and file structures used in the Conquer Online game client. Articles are sorted alphabetically.
 
 ### Feature Enums
+* [Directions](Enums/Directions)
 * [Hairstyles](Enums/Hairstyles)
 
 ### File Enums
@@ -16,3 +17,4 @@ This section contains links to enumeration types used in packet and file structu
 * [MsgSchoolMember/Relation](Enums/MsgSchoolMember Relation) ([Packet](Packets/Archive/MsgSchoolMember))
 * [MsgUserAttrib/Status](Enums/MsgUserAttrib Status) ([Packet](Packets/MsgUserAttrib))
 * [MsgWeather/Type](Enums/MsgWeather Type) ([Packet](Packets/MsgWeather))
+* [MsgWalk/Type](Enums/MsgWalk Type) ([Packet](Packets/MsgWalk))
