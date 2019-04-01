@@ -16,5 +16,5 @@ HAIRCOLOR_PURPLE = 9
 ```
 
 ### Hairstyle Pictures
-* [Male Pictures](Downloads/Hairstyles_Male.zip)
-* [Female Pictures](Downloads/Hairstyles_Female.zip)
+* [Male Pictures](https://mega.nz/#!kI4DxaLD!_MkXXc1GVVez3hM6JVrLIkCUQNdAanPRwoy8EWbvKnY)
+* [Female Pictures](https://mega.nz/#!1dwlFY4L!8BPpsHiFip8HD1QRKXEnrqnkXS8WbMJL144Okx-uABM)
