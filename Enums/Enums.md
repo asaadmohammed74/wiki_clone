@@ -2,5 +2,6 @@ This section contains links to enumeration types used in packet and file structu
 
 ### Packet Enums
 * [MsgSchoolMember/Action](Enums/MsgSchoolMember Action) ([Packet](Packets/Archive/MsgSchoolMember))
+* [MsgSchoolMember/Relation](Enums/MsgSchoolMember Relation) ([Packet](Packets/Archive/MsgSchoolMember))
 
 ### File Enums
