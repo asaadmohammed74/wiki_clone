@@ -11,6 +11,7 @@ This section contains links to enumeration types used in packet and file structu
 * [MsgAction/Action](Enums/MsgAction Action) ([Packet](Packets/MsgAction))
 * [MsgConnectEx/Rule](Enums/MsgConnectEx Rejects) ([Packet](Packets/MsgConnectEx))
 * [MsgData/Action](Enums/MsgData Action) ([Packet](Packets/MsgData))
+* [MsgDice/Action](Enums/MsgDice Action) ([Packet](Packets/MsgDice))
 * [MsgFriend/Action](Enums/MsgFriend Action) ([Packet](Packets/MsgFriend))
 * [MsgItem/Action](Enums/MsgItem Action) ([Packet](Packets/MsgItem))
 * [MsgItemInfo/Type](Enums/MsgItemInfo Type) ([Packet](Packets/MsgItemInfo))
