@@ -6,7 +6,7 @@ This packet is sent between the game server to the game client and is used to co
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 12 + Amount * 8 |
 | 2 | UInt16 | Type | 1113 |
-| 4 | Byte | DiceActionType | DiceActionType.ChipIn |
+| 4 | Byte | [DiceActionType](Enums/MsgDice Action) | DiceActionType.ChipIn |
 | 5 | Byte | Amount | 1 |
 | 6 | UInt16 | Unknown | 0 |
 | 8 | UInt32 | DiceNpc Id | 1005 |
