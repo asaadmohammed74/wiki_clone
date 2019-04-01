@@ -10,5 +10,7 @@ This packet is sent between the game server and client to set client-side rules 
 | 8 | UInt32 | Potency Type | 0 |
 
 **Notice:** For the server and potency types above, 
+
 0 = Standard Conquer Online 2.0 Server
+
 1 = Classic Conquer Online 2.0 Server
