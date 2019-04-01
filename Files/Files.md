@@ -11,3 +11,4 @@ This section contains links to file structures used in the Conquer Online game c
 * [3DEffect.ini](3DEffect.ini)
 * [GameMap.dat](GameMap.dat)
 * [magictypeop.dat](magictypeop.dat)
+* [Res.dat](Res.dat)
