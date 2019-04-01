@@ -8,4 +8,4 @@ This packet is sent from the game server to the game client to set game map rule
 | 2 | UInt16 | Type | 1110 |
 | 4 | UInt32 | Unique Map Id | 1002 |
 | 8 | UInt32 | Game Map Id | 1002 |
-| 12 | UInt32 | Map Type Flags | 0 |
+| 12 | UInt32 | [Rule Flags](Enums/MsgMapInfo Rule) | 0 |
