@@ -3,7 +3,7 @@ This file type defines a collection of puzzle pieces for constructing a scenery 
 | Offset | Type | Description | Example |
 | ------ | ---- | ----------- | ------- |
 | 0 | UInt32 | Amount of parts |  |
-| for i := 0; i < parts; i++ |||
+||| **for i := 0; i < parts; i++** |
 | | Char[256] | Path | |
 | | Char[64] | Title | |
 | | UInt32 | Origin X | |
@@ -15,8 +15,11 @@ This file type defines a collection of puzzle pieces for constructing a scenery 
 | | UInt32 | Offset X | |
 | | UInt32 | Offset Y | |
 | | Int32 | Offset Elevation | |
-| for y := 0; y < height; y++ |||
-| for x := 0; x < width; x++ |||
+||| **for y := 0; y < height; y++** |
+||| **for x := 0; x < width; x++** |
 | | UInt32 | Accessible | |
 | | UInt32 | Surface Type | |
 | | Int32 | Elevation | |
+||| **end for** |
+||| **end for** |
+||| **end for** |
