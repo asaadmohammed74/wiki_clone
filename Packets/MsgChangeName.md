@@ -9,4 +9,4 @@ This packet is used to handle the name change interface which TQ added in newer 
 | 4 | NameChangeType | NameChangeType | NameChangeType.Request |
 | 6 | UInt16 | EditsCount | 1 |
 | 8 | UInt16 | EditsAllowed | 1 |
-| 10 | STRING(16) | Name | Pro4Never |
+| 10 | Char[16] | Name | Pro4Never |
