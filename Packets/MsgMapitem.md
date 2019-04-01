@@ -11,7 +11,7 @@ This packet is sent from the game server to the game client to inform it of an i
 | 12 | UInt16 | X | 400 |
 | 14 | UInt16 | Y | 400 |
 | 16 | UInt16 | Color | 5 |
-| 18 | UInt16 | Action | GroundItemAction.Pick |
+| 18 | UInt16 | [Action](Enums/MsgMapItem Action) | GroundItemAction.Pick |
 
 ### Patch 6719
 
@@ -25,4 +25,4 @@ This packet is sent from the game server to the game client to inform it of an i
 | 16 | UInt16 | X | 400 |
 | 18 | UInt16 | Y | 400 |
 | 20 | UInt16 | Color | 5 |
-| 22 | UInt16 | Action | GroundItemAction.Pick |
+| 22 | UInt16 | [Action](Enums/MsgMapItem Action) | GroundItemAction.Pick |
