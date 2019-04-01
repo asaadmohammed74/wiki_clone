@@ -1,0 +1,7 @@
+```
+NONE = 0,
+POISON = 200,
+HEALTH = 201,
+MANA = 202,
+SHIELD = 203
+```
