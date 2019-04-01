@@ -3,6 +3,7 @@ This section contains links to enumeration types used in packet and file structu
 ### Feature Enums
 * [Directions](Enums/Directions)
 * [Hairstyles](Enums/Hairstyles)
+* [Item Special Abilities](Enums/Item Special Abilities)
 
 ### File Enums
 
