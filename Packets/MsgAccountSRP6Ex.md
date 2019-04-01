@@ -1,4 +1,4 @@
-Used in replacement of MsgAccountSRP6 for the start of Conquer Online 3.0. Implements a random buffer, used in SRP6 as a key derivation function (KDF). In addition, it combines [[MsgPCNum]] and [[MsgConnect]] which used to be sent after authentication, but is now sent before authentication. Used to initialize anti-bot routines in the client and server. 
+Used in replacement of [MsgAccountSRP6](MsgAccount) for the start of Conquer Online 3.0. Implements a random buffer, used in SRP6 as a key derivation function (KDF). In addition, it combines [MsgPCNum](MsgPCNum) and [MsgConnect](MsgConnect) which used to be sent after authentication, but is now sent before authentication. Used to initialize anti-bot routines in the client and server. 
 
 ### Patch 6630
 
