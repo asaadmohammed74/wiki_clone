@@ -7,8 +7,8 @@ This packet is used to control ground movement of the player. In recent versions
 | 0 | UInt16 | Length | 10 |
 | 2 | UInt16 | Type | 1005 |
 | 4 | UInt32 | Character ID | 1000001 |
-| 8 | Byte | Direction | 1 |
-| 9 | Byte | Movement Type | MovementType.Walk |
+| 8 | Byte | [Directions](Enums/Directions) | 1 |
+| 9 | Byte | [Movement Type](Enums/MsgWalk Type) | MovementType.Walk |
 
 ### Patch 5517
 
@@ -16,9 +16,9 @@ This packet is used to control ground movement of the player. In recent versions
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 24 |
 | 2 | UInt16 | Type | 10005 |
-| 4 | UInt32 | Direction | 1 |
+| 4 | UInt32 | [Directions](Enums/Directions) | 1 |
 | 8 | UInt32 | Character ID | 1000001 |
-| 12 | UInt32 | Movement Type | MovementType.Walk |
+| 12 | UInt32 | [Movement Type](Enums/MsgWalk Type) | MovementType.Walk |
 | 16 | UInt32 | Timestamp | 123123 |
 | 20 | UInt32 | Map ID | 1002 |
 
@@ -29,8 +29,8 @@ This packet is used to control ground movement of the player. In recent versions
 | 0 | UInt16 | Length | 24 |
 | 2 | UInt16 | Type | 10005 |
 | Google Protocol Buffer (Offsets 4 - 20) |
-| 4 | UInt32 | Direction | 1 |
+| 4 | UInt32 | [Directions](Enums/Directions) | 1 |
 | 8 | UInt32 | Character ID | 1000001 |
-| 12 | UInt32 | Movement Type | MovementType.Walk |
+| 12 | UInt32 | [Movement Type](Enums/MsgWalk Type) | MovementType.Walk |
 | 16 | UInt32 | Timestamp | 123123 |
 | 20 | UInt32 | Map ID | 1002 |
