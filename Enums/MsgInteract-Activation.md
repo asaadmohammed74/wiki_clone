@@ -1,4 +1,4 @@
-These flags determine various bonus effects which can be triggered during various interactions. Because they are flags they can be combined together and more than one can be sent in a single packet.
+These flags determine various bonus effects which can be triggered during various interactions. Because they are flags they can be combined together and more than one can be sent in a single packet ([MsgInteract](Packets/MsgInteract)).
 
 ```cs
 None = 0,
