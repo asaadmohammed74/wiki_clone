@@ -9,6 +9,7 @@ You can find a list of contributors [here](Contributors).
 ## Navigation
 Click one of the following links to browse a folder of articles:
 
+* [Enums](Enums/Enums)
 * [Files](Files/Files)
 * [Packets](Packets/Packets)
 * [Security](Security/Security)
