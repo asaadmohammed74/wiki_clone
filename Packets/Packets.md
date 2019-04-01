@@ -39,7 +39,7 @@ type Header struct {
 * [1110 - MsgMapInfo](Packets/MsgMapInfo)
 * [1113 - MsgDice](Packets/MsgDice)
 * [1114 - MsgSyncAction](Packets/MsgSyncAction)
-* [1124 - MsgAccountSRP6](Packets/MsgAccountSRP6)
+* [1124 - MsgAccountSRP6](Packets/MsgAccount)
 * [1130 - MsgTitle](Packets/MsgTitle)
 * [1213 - MsgLoginChallengeS](Packets/MsgLoginChallengeS)
 * [1214 - MsgLoginProofC](Packets/MsgLoginProofC)
