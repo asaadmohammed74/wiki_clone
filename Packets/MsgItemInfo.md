@@ -10,7 +10,7 @@ This packet is sent server>client to add or update the attributes of a specific 
 | 8 | UInt32 | [ItemType ID](Systems/Item Archetype) | 730001 |
 | 12 | UInt16 | Durability | 10000 |
 | 14 | UInt16 | MaxDurability | 10000 |
-| 16 | UInt16 | Action Type| 1 |
+| 16 | UInt16 | [Action Type](Enums/MsgItemInfo Type) | 1 |
 | 18 | Byte | Location| 0 |
 | 19 | Byte | Unknown | 0 |
 | 20 | UInt32 | Unknown | 0 |
@@ -36,7 +36,7 @@ This packet is sent server>client to add or update the attributes of a specific 
 | 8 | UInt32 | [ItemType ID](Systems/Item Archetype) | ‭132003‬ |
 | 12 | UInt16 | Durability | ‭1095 |
 | 14 | UInt16 | Max Durability | ‭1099 |
-| 16 | UInt16 | Action Type| 1 |
+| 16 | UInt16 | [Action Type](Enums/MsgItemInfo Type) | 1 |
 | 18 | UInt16 | Position | 3 |
 | 20 | UInt32 | Socket Progress | 0 |
 | 24 | Byte | Socket 1 | 0 |
