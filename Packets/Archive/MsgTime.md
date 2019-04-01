@@ -1,0 +1,1 @@
+It can be assumed that this packet is sent to the game client from the game server. In the checked client (patch 5615), it was found that this packet was not processed or created with parameters by the client. Processing for the packet returns immediately; creation for the packet also returns immediately with a completely empty packet structure.
