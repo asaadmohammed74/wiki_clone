@@ -34,4 +34,4 @@ using (Stream stream = new MemoryStream())
 WalkPacket result;
 using (Stream stream = new MemoryStream(buffer))
     result = Serializer.DeserializeWithLengthPrefix<WalkPacket>(stream, PrefixStyle.Fixed32);
-``
+```
