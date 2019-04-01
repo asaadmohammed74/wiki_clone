@@ -49,3 +49,10 @@ This data structure is encapsulated by the data map file structure. A cover obje
 | 404 | UInt32 | Offset X | 89 |
 | 408 | UInt32 | Offset Y | 221 |
 | 412 | UInt32 | Frame Interval | 100 |
+
+Example:
+```ini
+[altar00]
+FrameAmount=1
+Frame0=data/map/mapobj/newplain/altar/altar00.dds
+```
