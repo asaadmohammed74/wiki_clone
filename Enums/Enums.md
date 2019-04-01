@@ -19,7 +19,7 @@ This section contains links to enumeration types used in packet and file structu
 * [MsgInteract/Activation](Enums/MsgInteract Activation) ([Packet](Packets/MsgInteract))
 * [MsgMapInfo/Rule](Enums/MsgMapInfo Rule) ([Packet](Packets/MsgMapInfo))
 * [MsgMapItem/Action](Enums/MsgMapItem Action) ([Packet](Packets/MsgMapItem))
-* [MsgNpcAction/Action](Enums/MsgNpcAction Action) ([Packet](Packets/MsgNpcAction))
+* [MsgNpc/Action](Enums/MsgNpc Action) ([Packet](Packets/MsgNpc))
 * [MsgName/Request](Enums/MsgName Request) ([Packet](Packets/MsgName))
 * [MsgTalk/Style](Enums/MsgTalk Style) ([Packet](Packets/MsgTalk))
 * [MsgTalk/Tone](Enums/MsgTalk Tone) ([Packet](Packets/MsgTalk))
