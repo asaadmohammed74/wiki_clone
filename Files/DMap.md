@@ -58,7 +58,7 @@ Frame0=data/map/mapobj/newplain/altar/altar00.dds
 ```
 
 ### Effect Layer Type
-This data structure is encapsulated by the data map file structure. An effect acts as a floor effect on the map. Players may walk over and obstruct them, similarly to scene objects. This entry contains the name of the effect, which is used as a key in 3DEffect.ini. Coordinates for this entry are in world coordinates.
+This data structure is encapsulated by the data map file structure. An effect acts as a floor effect on the map. Players may walk over and obstruct them, similarly to scene objects. This entry contains the name of the effect, which is used as a key in 3DEffect.ini. Coordinates for this entry are in [world coordinates](Systems/World Coordinates).
 
 | Offset | Type | Description | Example |
 | ------ | ---- | ----------- | ------- |
