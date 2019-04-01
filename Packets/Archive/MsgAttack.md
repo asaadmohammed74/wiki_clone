@@ -1,0 +1,1 @@
+This packet was never implemented, or cannot be discovered within our current mediums of research. It can be assumed that the packet was never implemented in favor of the [MsgInteract](Packets/MsgInteract) packet.
