@@ -1,5 +1,8 @@
 This section contains security protocols and ciphers, which establish rules for data transfer and communication exchanges between the client and game server. 
 
+### Communication Protocols
+* [Google ProtoBuf](https://developers.google.com/protocol-buffers/) ([Example](Security/ProtoBuf))
+
 ### Security Ciphers
 
 ### Security Protocols
