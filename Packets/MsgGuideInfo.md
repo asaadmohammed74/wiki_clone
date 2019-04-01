@@ -24,7 +24,7 @@ This packet is sent between the client and game server. It contains information 
 | 64 | UInt16 | Apprentice Blessing | 12 |
 | 66 | UInt16 | Apprentice Composing | 200 |
 | 68 | Byte | String Count | 3 |
-| 69 | NetStringPacker | Strings | 3 6 Mentor 10 Apprentice 10 MentorWife |
+| 69 | [NetStringPacker](Systems/String Packer) | Strings | 3 6 Mentor 10 Apprentice 10 MentorWife |
 
 **Removing Mentorship:** Hours == 999999; Field is ignored.
 Hours == 0; The apprentice record is dropped from the mentor list.

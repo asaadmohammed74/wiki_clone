@@ -9,4 +9,4 @@ This packet is a variable length packet sent between the client and game server 
 | 2 | UInt16 | Type | 1015|
 | 4 | UInt32 | Data | 1000001 |
 | 8 | Byte | [Request](Enums/MsgName Request) | StringType.Mate |
-| 9 | NetStringPacker| Strings | 1 5 Booty |
+| 9 | [NetStringPacker](Systems/String Packer) | Strings | 1 5 Booty |

@@ -13,4 +13,4 @@ Displays the quiz show interface and handles questions and replies from players.
 | 12 | UInt16 | Param4 (First Prize, Time Taken) | |
 | 14 | UInt16 | Param5 (Second Prize, Current Score) | |
 | 16 | UInt16 | Param6 (Third Prize) | |
-| 18 | NetStringPacker| Strings | 5 Question Answer1 Answer2 Answer3 Answer4 |
+| 18 | [NetStringPacker](Systems/String Packer) | Strings | 5 Question Answer1 Answer2 Answer3 Answer4 |
