@@ -5,8 +5,9 @@ This section contains security protocols and ciphers, which establish rules for 
 
 ### Security Ciphers
 * [Blowfish](https://en.wikipedia.org/wiki/Blowfish_(cipher)) ([Example](https://gitlab.com/spirited/conquer/snippets/1840796))
+* [CAST5](https://en.wikipedia.org/wiki/CAST-128) ([Example](https://gitlab.com/spirited/conquer/snippets/1840797))
 * Password Scan Codes Cipher ([Example](https://gitlab.com/spirited/conquer/snippets/1840792))
-* RC5 ([Example](https://gitlab.com/spirited/conquer/snippets/1840791), [MsgEncryptCode](Packets/MsgEncryptCode))
+* [RC5](https://simple.wikipedia.org/wiki/RC5) ([Example](https://gitlab.com/spirited/conquer/snippets/1840791), [MsgEncryptCode](Packets/MsgEncryptCode))
 * TQ Client Asymmetric Cipher ([Example](https://gitlab.com/spirited/conquer/snippets/1840784))
 * TQ Server Asymmetric Cipher ([Example](https://gitlab.com/spirited/conquer/snippets/1840785))
 * TQ File Asymmetric Cipher ([Example](https://gitlab.com/spirited/conquer/snippets/1840786))
