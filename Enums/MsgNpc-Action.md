@@ -1,4 +1,4 @@
-These enumeration type values are used to request or control various NPC actions via [MsgNpcAction](Packets/MsgNpcAction).
+These enumeration type values are used to request or control various NPC actions via [MsgNpc](Packets/MsgNpc).
 
 ```cs
 Activate = 0,
