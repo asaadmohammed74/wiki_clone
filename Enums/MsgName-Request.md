@@ -1,4 +1,4 @@
-These enumeration type values are sent between the client and game server to request/set/modify various client strings including spouse and guild names through the [MsgString](Packets/MsgString) Packet. 
+These enumeration type values are sent between the client and game server to request/set/modify various client strings including spouse and guild names through the [MsgName](Packets/MsgName) Packet. 
 
 ```
 None = 0,
