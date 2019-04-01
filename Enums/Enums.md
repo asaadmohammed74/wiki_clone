@@ -14,6 +14,7 @@ This section contains links to enumeration types used in packet and file structu
 * [MsgItem/Action](Enums/MsgItem Action) ([Packet](Packets/MsgItem))
 * [MsgItemInfo/Type](Enums/MsgItemInfo Type) ([Packet](Packets/MsgItemInfo))
 * [MsgInteract/Action](Enums/MsgInteract Action) ([Packet](Packets/MsgInteract))
+* [MsgInteract/Activation](Enums/MsgInteract Activation) ([Packet](Packets/MsgInteract))
 * [MsgMapInfo/Rule](Enums/MsgMapInfo Rule) ([Packet](Packets/MsgMapInfo))
 * [MsgName/Request](Enums/MsgName Request) ([Packet](Packets/MsgName))
 * [MsgTalk/Style](Enums/MsgTalk Style) ([Packet](Packets/MsgTalk))
