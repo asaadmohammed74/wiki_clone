@@ -13,7 +13,7 @@ This packet was implemented in the base implementation of their game and server,
 ### STMEMBER_INFO Definition
 
 | Type | Description | Example |
-| ------ | ---- | ----------- | ------- |
+| ------ | ---- | ----------- |
 | UInt32 | Member Identity | 1000000 |
 | Char[16] | Member Name | TestAccount1 |
 | Char[16] | Mate Name | TestAccount2 |
