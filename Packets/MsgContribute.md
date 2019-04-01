@@ -11,4 +11,5 @@ This packet is sent between the client and game server. It contains reward infor
 | 24 | UInt64 | Prize Experience | 600 |
 | 32 | UInt16 | Prize Heaven Blessing | 3 |
 | 34 | UInt16 | Prize Composing | 200 |
+
 **Notes:** 600 Experience is 1 ExpBall, Heaven Blessing is per hour and Composing 100 is 1.
