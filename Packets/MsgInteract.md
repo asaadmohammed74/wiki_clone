@@ -29,5 +29,5 @@ This packet is used to request and confirm many types of interactions such as at
 | 20 | UInt16 | [Action](Enums/MsgInteract Action) | InteractType.Shoot |
 | 22 | UInt32 | Effect | 1 |
 | 26 | UInt32 | ReturnedEffect | 0 |
-| 30 | ActivationFlag | Activation | Activation.CriticalStrike |
+| 30 | UInt32 | [Activation](Enums/MsgInteract Activation) | Activation.CriticalStrike |
 | 34 | UInt32 | ActivationEffect | 0 |
