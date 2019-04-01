@@ -23,6 +23,7 @@ This section contains links to enumeration types used in packet and file structu
 * [MsgMapItem/Action](Enums/MsgMapItem Action) ([Packet](Packets/MsgMapItem))
 * [MsgNpc/Action](Enums/MsgNpc Action) ([Packet](Packets/MsgNpc))
 * [MsgName/Request](Enums/MsgName Request) ([Packet](Packets/MsgName))
+* [MsgNationality/Country](Enums/MsgNationality Country) ([Packet](Packets/MsgNationality))
 * [MsgPigeon/Action](Enums/MsgPigeon Action) ([Packet](Packets/MsgPigeon))
 * [MsgTalk/Style](Enums/MsgTalk Style) ([Packet](Packets/MsgTalk))
 * [MsgTalk/Tone](Enums/MsgTalk Tone) ([Packet](Packets/MsgTalk))
