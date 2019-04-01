@@ -26,7 +26,7 @@ type Header struct {
 * [1027 - MsgGemEmbed](Packets/MsgGemEmbed)
 * [1033 - MsgData](Packets/MsgData)
 * [1034 - MsgDetainItemInfo](Packets/MsgDetainItemInfo)
-* [1040 - MsgPlayerAttribInfo](Packets/MsgPlayerAttribInfo)
+* [1040 - MsgUserAttribInfo](Packets/MsgUserAttribInfo)
 * [1051 - MsgAccount](Packets/MsgAccount)
 * [1052 - MsgConnect](Packets/MsgConnect)
 * [1055 - MsgConnectEx](Packets/MsgConnectEx)
