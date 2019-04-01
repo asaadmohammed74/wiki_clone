@@ -3,6 +3,7 @@ This packet was implemented in the base implementation of their game and server,
 ### Packet Definition
 
 | Offset | Type | Description | Example |
+| ------ | ---- | ----------- | ------- |
 | 0 | UInt16 | Packet Length | 53 |
 | 2 | UInt16 | Packet Identifier | 2037 |
 | 4 | Byte | Action | 1 |
@@ -12,6 +13,7 @@ This packet was implemented in the base implementation of their game and server,
 ### STMEMBER_INFO Definition
 
 | Type | Description | Example |
+| ------ | ---- | ----------- | ------- |
 | UInt32 | Member Identity | 1000000 |
 | Char[16] | Member Name | TestAccount1 |
 | Char[16] | Mate Name | TestAccount2 |
