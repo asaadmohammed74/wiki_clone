@@ -4,6 +4,7 @@ is 52 (because it includes the authentication code, port, and IP address). The l
 ### Patches 4274 - 4330
 
 Acceptance Example:
+
 | Offset | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 32 |
@@ -14,6 +15,7 @@ Acceptance Example:
 | 28 | UInt32 | Game Server Port | 5816 |
 
 Rejection Example:
+
 | Offset | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 28 |
@@ -47,6 +49,7 @@ var MSGCONNECTEX_BANNED_ACCOUNT = []byte { // 该帐号被封号 (12)
 ### Patch 5017-5187
 
 Acceptance Example:
+
 | Offset | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 32 |
@@ -57,6 +60,7 @@ Acceptance Example:
 | 28 | UInt32 | Game Server Port | 5816 |
 
 Rejection Example:
+
 | Offset | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 32 |
@@ -68,6 +72,7 @@ Rejection Example:
 ### Patch 5635
 
 Acceptance Example:
+
 | Offset | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 52 |
@@ -79,6 +84,7 @@ Acceptance Example:
 | 20 | Char[32] | Game Server IP Address | 192.168.1.2 |
 
 Rejection Example:
+
 | Offset | Type | Description | Example |
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 12 |
