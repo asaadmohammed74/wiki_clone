@@ -6,7 +6,7 @@ This packet was implemented in the base implementation of their game and server,
 | ------ | ---- | ----------- | ------- |
 | 0 | UInt16 | Packet Length | 53 |
 | 2 | UInt16 | Packet Identifier | 2037 |
-| 4 | Byte | Action | 1 |
+| 4 | Byte | [Action](Enums/MsgSchoolMember Action) | 1 |
 | 5 | Byte | Member Count | 1 |
 | 6 | STMEMBER_INFO[] | "Set of Members" Info |  |
 
@@ -21,6 +21,6 @@ This packet was implemented in the base implementation of their game and server,
 | Byte | Member Profession | 13 |
 | UInt16 | Member PK Points | 0 |
 | Byte | Member Nobility Rank | 0 |
-| Byte | Member Relation | 0 |
+| Byte | Member [Relation](Enums/MsgSchoolMember Relation) | 0 |
 | Byte | Member Status (Offline/Online) | 1 |
 | UInt32 | Member Syn Rank | 0 |
