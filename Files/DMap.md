@@ -50,9 +50,18 @@ This data structure is encapsulated by the data map file structure. A cover obje
 | 408 | UInt32 | Offset Y | 221 |
 | 412 | UInt32 | Frame Interval | 100 |
 
-Example:
+Ani Example:
 ```ini
 [altar00]
 FrameAmount=1
 Frame0=data/map/mapobj/newplain/altar/altar00.dds
 ```
+
+### Effect Layer Type
+This data structure is encapsulated by the data map file structure. An effect acts as a floor effect on the map. Players may walk over and obstruct them, similarly to scene objects. This entry contains the name of the effect, which is used as a key in 3DEffect.ini. Coordinates for this entry are in world coordinates.
+
+| Offset | Type | Description | Example |
+| ------ | ---- | ----------- | ------- |
+| 0 | Char[64] | Name | zf2-e224 |
+| 64 | UInt32 | Origin X | 11392 |
+| 68 | UInt32 | Origin Y | 6465 |
