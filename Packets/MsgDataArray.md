@@ -6,5 +6,5 @@ This packet is used to send a list of ItemIds to be used in systems such as comp
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 24 |
 | 2 | UInt16 | Type | 2036 |
-| 4 | DataArrayActionType | Action | DataArrayActionType.Compose |
+| 4 | Byte | [Action](Enums/MsgDataArray Action) | DataArrayActionType.Compose |
 | 5 | [INT32[]] | Items | 2 111 112  |
