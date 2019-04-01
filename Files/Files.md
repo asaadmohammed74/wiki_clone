@@ -9,3 +9,4 @@ This section contains links to file structures used in the Conquer Online game c
 
 ### Files
 * [3DEffect.ini](Files/3DEffect.ini)
+* [GameMap.dat](Files/GameMap.dat)
