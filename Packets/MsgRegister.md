@@ -44,7 +44,7 @@ This packet is sent from the game client to the game server. It contains initial
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 124 |
 | 2 | UInt16 | Type | 1001 |
-| 4 | UInt32 | Request Type | 0 |
+| 4 | UInt32 | Cancel | 0 |
 | 8 | Char[16] | Account Name _(Unused)_ | |
 | 24 | Char[16] | Forename | Test |
 | 40 | Char[16] | Surname _(Unused)_ | |
