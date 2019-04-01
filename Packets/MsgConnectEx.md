@@ -20,7 +20,7 @@ Rejection Example:
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 28 |
 | 2 | UInt16 | Type | 1055 |
-| 8 | UInt32 | Rejection Code | 1 |
+| 8 | UInt32 | [Rejection Code](Enums/MsgConnectEx Rejects) | 1 |
 | 12 | Char[16] | Message (GB2312 Encoding) | 帐号名或口令错 |
 
 **Notes:** The following messages are some I found by reversing the client.
@@ -64,7 +64,7 @@ Rejection Example:
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 32 |
 | 2 | UInt16 | Type | 1055 |
-| 8 | UInt32 | Rejection Code | 10 |
+| 8 | UInt32 | [Rejection Code](Enums/MsgConnectEx Rejects) | 10 |
 
 ### Patch 5635
 
@@ -86,4 +86,4 @@ Rejection Example:
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 12 |
 | 2 | UInt16 | Type | 1055 |
-| 8 | UInt32 | Rejection Code | 10 |
+| 8 | UInt32 | [Rejection Code](Enums/MsgConnectEx Rejects) | 10 |
