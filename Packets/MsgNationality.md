@@ -7,4 +7,4 @@ This packet is sent to the game client to update the player's country flag. The 
 | 0 | UInt16 | Length | 10 |
 | 2 | UInt16 | Type | 2430 |
 | 4 | UInt32 | Player ID | 11111111111 |
-| 8 | Byte | Country ID | 10 |
+| 8 | Byte | [Country ID](Enums/MsgNationality Country) | 10 |
