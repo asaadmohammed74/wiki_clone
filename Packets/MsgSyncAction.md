@@ -6,7 +6,7 @@ This packet is used to send synchronized player actions with other players. This
 | -------- | -------- | -------- | -------- |
 | 0 | UInt16 | Length | 24 |
 | 2 | UInt16 | Type | 1114 |
-| 4 | UInt16 | MsgSyncAction Type | 1 |
+| 4 | UInt16 | [Action](Enums/MsgSyncAction Action) | 1 |
 | 6 | UInt16 | X | 400 |
 | 8 | UInt16 | Y | 400 |
 | 12 | UInt32 | Amount | 2 |
