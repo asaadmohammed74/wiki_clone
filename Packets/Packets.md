@@ -84,6 +84,7 @@ type Header struct {
 * [1021 - MsgQuizGame](Packets/Archive/MsgQuizGame)
 * [1090 - MsgLoginAccountEx](Packets/Archive/MsgLoginAccountEx)
 * [2034 - MsgTime](Packets/Archive/MsgTime)
+* [2037 - MsgSchoolMember](Packets/Archive/MsgSchoolMember)
 
 ### Undocumented Packets
 * 1023 - MsgTeam
