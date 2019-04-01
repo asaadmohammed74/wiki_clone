@@ -1,0 +1,1 @@
+This section contains links to file structures used in the Conquer Online game client. Articles are sorted by file name and path from the top of the client directory. Once an article has loaded, structures will be ordered by patch version (if applicable).
