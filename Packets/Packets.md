@@ -73,6 +73,18 @@ type Header struct {
 * [10014 - MsgPlayer](Packets/MsgPlayer)
 * [10017 - MsgUserAttrib](Packets/MsgUserAttrib)
 
+### Archived Packets
+* [1002 - MsgLogin](Packets/Archive/MsgLogin)
+* [1003 - MsgLogout](Packets/Archive/MsgLogout)
+* [1007 - MsgAttack](Packets/Archive/MsgAttack)
+* [1011 - MsgAccident](Packets/Archive/MsgAccident)
+* [1013 - MsgRoom](Packets/Archive/MsgRoom)
+* [1018 - MsgRole](Packets/Archive/MsgRole)
+* [1020 - MsgEffect](Packets/Archive/MsgEffect)
+* [1021 - MsgQuizGame](Packets/Archive/MsgQuizGame)
+* [1090 - MsgLoginAccountEx](Packets/Archive/MsgLoginAccountEx)
+* [2034 - MsgTime](Packets/Archive/MsgTime)
+
 ### Undocumented Packets
 * 1023 - MsgTeam
 * 1024 - MsgAllot
