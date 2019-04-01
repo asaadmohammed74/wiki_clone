@@ -3,7 +3,7 @@ Welcome to the Conquer Online server development and client modifications wiki. 
 * Articles must be written from a neutral point of view.
 * Authors must respect each other, and not engage in personal attacks.
 * Authors must not publish copyrighted images or programs.
-* Authors must not publish [TQ Binaries](TQ Binaries)
+* Authors must not publish [TQ Binaries](TQ Binaries).
 
 You can find a list of contributors [here](Contributors).
 
