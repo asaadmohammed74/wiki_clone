@@ -11,7 +11,7 @@ This packet is used to request and confirm many types of interactions such as at
 | 12 | UInt32 | TargetId | 1000002 |
 | 16 | UInt16 | X | 400 |
 | 18 | UInt16 | Y | 450 |
-| 20 | InteractType | Action | InteractType.Shoot |
+| 20 | UInt16 | [Action](Enums/MsgInteract Action) | InteractType.Shoot |
 | 22 | UInt32 | Effect | 1 |
 | 26 | UInt32 | ReturnedEffect | 0 |
 
@@ -26,7 +26,7 @@ This packet is used to request and confirm many types of interactions such as at
 | 12 | UInt32 | TargetId | 1000002 |
 | 16 | UInt16 | X | 400 |
 | 18 | UInt16 | Y | 450 |
-| 20 | InteractType | Action | InteractType.Shoot |
+| 20 | UInt16 | [Action](Enums/MsgInteract Action) | InteractType.Shoot |
 | 22 | UInt32 | Effect | 1 |
 | 26 | UInt32 | ReturnedEffect | 0 |
 | 30 | ActivationFlag | Activation | Activation.CriticalStrike |
