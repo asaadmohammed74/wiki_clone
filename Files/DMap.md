@@ -72,5 +72,16 @@ This data structure is encapsulated by the data map file structure. A scene acts
 | Offset | Type | Description | Example |
 | ------ | ---- | ----------- | ------- |
 | 0 | Char[260] | Path | |
-| 64 | UInt32 | Origin X | |
-| 68 | UInt32 | Origin Y | |
+| 260 | UInt32 | Origin X | |
+| 264 | UInt32 | Origin Y | |
+
+### Sound Layer Type
+This data structure is encapsulated by the data map file structure. A sound object is not visible by players on the screen and does not overlap with any other screen objects in the interactive layer. It only plays a sound which varies in volume, range, and location according to the structure defined below. Coordinates for this entry are in [world coordinates](Systems/World Coordinates).
+
+| Offset | Type | Description | Example |
+| ------ | ---- | ----------- | ------- |
+| 0 | Char[260] | Path | sound/water.wav |
+| 260 | UInt32 | Origin X | 25995 |
+| 264 | UInt32 | Origin Y | 11673 |
+| 268 | UInt32 | Range | 1200 |
+| 272 | UInt32 | Volume | 100 |
