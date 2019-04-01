@@ -16,7 +16,7 @@ This packet is sent server>client to add or update the attributes of a specific 
 | 20 | UInt32 | Unknown | 0 |
 | 24 | Byte | Gem1 | 13 |
 | 25 | Byte | Gem2 | 13 |
-| 26 | Byte | RebornEffect | 200 |
+| 26 | Byte | [RebornEffect](Enums/Item Special Abilities) | 200 |
 | 27 | Byte | Unknown | 0 |
 | 28 | Byte | Plus | 9 |
 | 29 | Byte | Bless | 7 |
@@ -41,7 +41,7 @@ This packet is sent server>client to add or update the attributes of a specific 
 | 20 | UInt32 | Socket Progress | 0 |
 | 24 | Byte | Socket 1 | 0 |
 | 25 | Byte | Socket 2 | 0 |
-| 28 | UInt16 | RebornEffect | 0 |
+| 28 | UInt16 | [RebornEffect](Enums/Item Special Abilities) | 0 |
 | 33 | Byte | Plus | 0 |
 | 34 | Byte | Blessed Dmg / Steed Red | 0 |
 | 35 | BOOL | Bound | false |
