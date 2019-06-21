@@ -9,8 +9,9 @@ This packet is sent from the game server to the game client. It contains charact
 | 4 | UInt32 | Identity | 1000000 |
 | 8 | UInt32 | [Mesh](Systems/Mesh) | 1003 |
 | 12 | UInt16 | [Hairstyle](Enums/Hairstyles) | 535 |
-| 16 | UInt32 | Silver | 10000 |
-| 20 | UInt64 | Experience | 0 |
+| 14 | UInt32 | Silver | 10000 |
+| 18 | UInt32 | CPs | 0 |
+| 22 | UInt64 | Experience | 0 |
 | 40 | UInt16 | Strength | 7 |
 | 42 | UInt16 | Agility | 2 |
 | 44 | UInt16 | Vitality | 4 |
@@ -39,9 +40,9 @@ This packet is sent from the game server to the game client. It contains charact
 | 4 | UInt32 | Identity | 1000000 |
 | 8 | UInt32 | [Mesh](Systems/Mesh) | 1003 |
 | 12 | UInt16 | [Hairstyle](Enums/Hairstyles) | 535 |
-| 16 | UInt32 | Silver | 10000 |
-| 20 | UInt32 | CPs | 0 |
-| 24 | UInt64 | Experience | 0 |
+| 14 | UInt32 | Silver | 10000 |
+| 18 | UInt32 | CPs | 0 |
+| 22 | UInt64 | Experience | 0 |
 | 46 | UInt16 | Strength | 7 |
 | 48 | UInt16 | Agility | 2 |
 | 50 | UInt16 | Vitality | 4 |
