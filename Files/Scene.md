@@ -17,7 +17,7 @@ This file type defines a collection of puzzle pieces for constructing a scenery 
 | | Int32 | Offset Elevation | |
 ||| **for y := 0; y < height; y++** |
 ||| **for x := 0; x < width; x++** |
-| | UInt32 | Accessible | |
+| | UInt32 | Invalid Movement | |
 | | UInt32 | Surface Type | |
 | | Int32 | Elevation | |
 ||| **end for** |
