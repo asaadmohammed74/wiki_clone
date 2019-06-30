@@ -10,7 +10,7 @@ This file structure encapsulates covers, effects, scenes, and sounds, used for w
 | 268 | UInt32 | Height | 368 |
 ||| **for y := 0; y < height; y++** |
 ||| **for x := 0; x < width; x++** |
-| | UInt16 | Accessible | 1 |
+| | UInt16 | Invalid Movement | 1 |
 | | UInt16 | Surface | 0 |
 | | Int16 | Elevation | 0 |
 ||| **end for** |
