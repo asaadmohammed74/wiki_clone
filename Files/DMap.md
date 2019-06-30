@@ -24,7 +24,7 @@ This file structure encapsulates covers, effects, scenes, and sounds, used for w
 ||| **end for** |
 | | UInt32 | Amount Layers | 48 |
 ||| **for i := 0; i < amount; i++** |
-| | UInt32 | Layer Type | 10 |
+| | UInt32 | [Layer Type](Enums/DmapLayerType) | 10 |
 | | Layer | See layer type structures below | |
 ||| **end for** |
 
