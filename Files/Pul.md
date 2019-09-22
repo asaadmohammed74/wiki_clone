@@ -6,15 +6,18 @@ This file type defines a collection of puzzle pieces for constructing the backgr
 | 8 | Char[256] | File Path | ani\skybg.ani |
 | 264 | UInt32 | Width | 12 |
 | 268 | UInt32 | Height | 40 |
-||| **for y := 0; y < height; y++** ||
-||| **for x := 0; x < width; x++** ||
+
+|Condition|Type|Description|Example|
+| ------ | ---- | ----------- | ------- |
+| **for y := 0; y < height; y++** ||||
+| **for x := 0; x < width; x++** ||||
 | | UInt16 | Ani Index | 0 |
-||| **If Version 2** ||
+| **End of for** ||||
+| **End of for** ||||
+| **If Version 2** ||||
 | | UInt32 | Roll Speed X | 20 |
 | | UInt32 | Roll Speed Y | 20 |
-||| **End of if Version 2** ||
-||| **End of for** ||
-||| **End of for** ||
+| **End of if Version 2** ||||
 
 Ani Example:
 ```ini
