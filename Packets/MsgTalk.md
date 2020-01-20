@@ -65,3 +65,28 @@ This packet is sent between the game client and server to exchange messages. The
 |  | Char[] | Message | Hello world |
 |  | Byte | Unreferenced String Length (empty string used in client) | 0 |
 |  | Byte | Unreferenced String Length (empty string used in client) | 0 |
+
+### Patch 5808
+
+| Offset | Type | Description | Example |
+| -------- | -------- | -------- | -------- |
+| 0 | UInt16 | Length (31 + Length from Sender's Name, Recipient's Name, Suffix, and Message) | 63 |
+| 2 | UInt16 | Packet Type | 1004 |
+| 4 | UInt32 | Timestamp | 1579535985 |
+| 8 | UInt32 | Text Color in ARGB | 0xFFFFFF00 |
+| 12 | UInt16 | [Tone](Enums/MsgTalk Tone) | 2000 |
+| 14 | UInt16 | [Style Flags](Enums/MsgTalk Style) | 0 |
+| 16 | UInt32 | Sender's Identity / Time | (hour * 100) + min |
+| 20 | UInt32 | Recipient's [Mesh](Systems/Mesh) | 501002 |
+| 24 | UInt32 | Sender's [Mesh](Systems/Mesh) | 501002 |
+| 28 | Byte | String List Count | 6 |
+|  | Byte | Sender's Name Length | 7 |
+|  | Char[] | Sender's Name | Player1 |
+|  | Byte | Recipient's Name Length | 7 |
+|  | Char[] | Recipient's Name | Player2 |
+|  | Byte | Suffix Length | 8 |
+|  | Char[] | Suffix | 20140518 |
+|  | Byte | Message Length | 11 |
+|  | Char[] | Message | Hello world |
+|  | Byte | Unreferenced String Length (empty string used in client) | 0 |
+|  | Byte | Unreferenced String Length (empty string used in client) | 0 |
