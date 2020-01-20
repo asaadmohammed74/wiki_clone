@@ -132,3 +132,48 @@ This packet is sent from the game server to the game client. It contains charact
 |  | Char[] | Character Name | Test |
 |  | Byte | Spouse Name length | 10 |
 |  | Char[] | Spouse Name | None |
+
+### Patch 5808
+
+| Offset | Type | Description | Example |
+| -------- | -------- | -------- | -------- |
+| 0 | UInt16 | Length (122 + String List) | 130 |
+| 2 | UInt16 | Type | 1006 |
+| 4 | UInt32 | Timestamp | 1579535985 |
+| 8 | UInt32 | Character Identity | 1000000 |
+| 12 | UInt16 | Appearance | 3 |
+| 14 | UInt32 | [Mesh](Systems/Mesh) | 501003 |
+| 18 | UInt16 | [Hairstyle](Enums/Hairstyles) | 418 |
+| 20 | UInt32 | Silver | 10000 |
+| 24 | UInt32 | Conquer Points | 10000 |
+| 28 | UInt64 | Experience | 0 |
+| 48 | UInt64 | Virtue | 0 |
+| 56 | UInt16 | Strength | 4 |
+| 58 | UInt16 | Agility | 6 |
+| 60 | UInt16 | Vitality | 12 |
+| 62 | UInt16 | Spirit | 0 |
+| 64 | UInt16 | [Attributes](Systems/Attribute Points) | 0 |
+| 66 | UInt16 | Health Points | 12 |
+| 68 | UInt16 | Spirit Points | 0 |
+| 70 | UInt16 | PK Points | 0 |
+| 74 | Byte | Level | 1 |
+| 75 | Byte | Current Class | 10 |
+| 76 | Byte | Ancestor Class (2nd rb) | 10 |
+| 77 | Byte | Previous Class (2nd rb, else offset 70) | 10 |
+| 79 | Byte | Reborn Count | 2 |
+| 81 | UInt32 | Quiz Points | 2000 |
+| 89 | UInt16 | Enlighten Points | 100*amount |
+| 91 | UInt16 | Enlighten Recv Exp | 1 = 20 minutes |
+| 101 | UInt16 | TitleId | 0 |
+| 103 | UInt32 | Bound Conquer Points | 10000 |
+| 107 | Byte | Subclass Id | 0 |
+| 108 | UInt64 | Subclass Step-Level | 0 |
+| 116 | UInt32 | Ride Points | 0 |
+| 120 | UInt16 | Country Flag | 0 |
+| 122 | Byte | String List Count | 3 |
+| 123 | Byte | Character Name Length | 4 |
+|  | Char[] | Character Name | Test |
+|  | Byte | Second Name length (unused) | 10 |
+|  | Char[] | Second Name (unused) | None |
+|  | Byte | Spouse Name length | 10 |
+|  | Char[] | Spouse Name | None |
