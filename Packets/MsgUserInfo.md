@@ -159,7 +159,7 @@ This packet is sent from the game server to the game client. It contains charact
 | 74 | Byte | Level | 1 |
 | 75 | Byte | Current Class | 10 |
 | 76 | Byte | Ancestor Class (2nd rb) | 10 |
-| 77 | Byte | Previous Class (2nd rb, else offset 70) | 10 |
+| 77 | Byte | Previous Class (2nd rb, else offset 76) | 10 |
 | 79 | Byte | Reborn Count | 2 |
 | 81 | UInt32 | Quiz Points | 2000 |
 | 89 | UInt16 | Enlighten Points | 100*amount |
