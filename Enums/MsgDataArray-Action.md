@@ -1,8 +1,12 @@
 These enumeration type values are used to control what type of system the items should be used in via [MsgDataArray](Packets/MsgDataArray).
 
 ```cs
-Item = 0,
+ComposeItem = 0,
 Accessory = 1,
-Steed_Original = 2,
-Steed_New = 3,
+ComposeSteedOriginal = 2,
+ComposeSteedNew = 3,
+QuickCompose = 4,
+QuickComposeMount = 5,
+UpgradeItemLevel = 6,
+UpgradeItemQuality = 7
 ```
